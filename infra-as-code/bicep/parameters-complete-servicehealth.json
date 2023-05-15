@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "parPolicyManagementGroupId": {
-            "value": "alz"
+            "value": "mw-demo"
         },
         "parPolicyAssignmentParameters": {
             "value": {
@@ -16,14 +16,14 @@
                     }
                 },
                 "ALZMonitorResourceGroupLocation": {
-                    "value": "eastus"
+                    "value": "westeurope"
                 }
             }
         },
         "parPolicyAssignmentParametersServiceHealth": {
             "value": {
                 "ALZMonitorActionGroupEmail": {
-                    "value": "action@mail.com"
+                    "value": "reduards@microsoft.com"
                 },
                 "ResHlthUnhealthyAlertState": {
                     "value": "true"
